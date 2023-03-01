@@ -18,5 +18,8 @@ Areas where the data needed to be cleaned were identified, including replacing t
 Milestone 5: Batch processing- Orchestrate the batch processing using Airflow. 
 
 Milestone 6: Spark-straming 
-Python file 'streaming_consumer.py' was created to consume data from kafka. 
+Python file 'streaming_consumer.py' was created to consume data from kafka. Spark streaming jar file was submitted to the pyspark submit argument using the '--jars' option. Cleaning and feature computation transformations were carried out. 
+
+Milestone 7: Streaming-Storage
+Local Postgres database (pinterest_streaming) was curated with a schema that matched the attributes of the processed events. Database table was named 'experimental_data'. 'streaming_consumer.py' file was modified to have processed data sent to the database. 
 
